@@ -1,4 +1,4 @@
-There is an urgent need to sanitise/mask sensitive data. Take for example healthcare, 
+**Why hesitate when uploading your data to an LLM such as chatGPT or Grok ? If you have data that might contain sensitive data, why not sanitise the data before loading it to an LLM ? **
 
 
 Data Masking Tool (using Microsoft Presidio)
