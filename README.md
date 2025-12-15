@@ -34,14 +34,23 @@ python -m spacy download en_core_web_lg
 That’s it! No other dependencies.
 
 Project Structure
+
 textDataMasking/
+
 ├── main.py                  ← Run this file
+
 ├── handlers.py              ← Handles different file types
+
 ├── presidio_masker.py       ← Core masking logic
+
 ├── Files/                   ← Put your input files here
 │   └── tkls3886.txt
+
 ├── mask_log.txt             ← Created automatically (what was changed)
+
 └── masked_tkls3886.txt      ← Your clean output file
+
+
 How to Use
 
 Place your file inside the Files folder (e.g., tkls3886.txt).
